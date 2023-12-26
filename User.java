@@ -29,7 +29,7 @@ public class User {
         this.perm = perm;
     }
 
-    String generateCardNumber() {
+    String GenerateCardNumber() {
         Random random = new Random();
         StringBuilder cardNumberBuilder = new StringBuilder("5"); // Starting with 5 for Mastercard
 
@@ -40,15 +40,15 @@ public class User {
         return cardNumberBuilder.toString();
     }
 
-    String generatePin() {
+    String GeneratePin() {
         Random random = new Random();
-        StringBuilder Pin = new StringBuilder();
+        StringBuilder pin = new StringBuilder();
 
         for (int i = 1; i < 4; i++) {
-            Pin.append(random.nextInt(10)); // Append a random digit
+            pin.append(random.nextInt(10)); // Append a random digit
         }
 
-        return Pin.toString();
+        return pin.toString();
     }
 
     public void UserOptions() {

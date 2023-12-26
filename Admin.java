@@ -87,8 +87,8 @@ public class Admin extends User {
         String firstName = scanner.nextLine();
         System.out.println("LastName: ");
         String lastName = scanner.nextLine();
-        String cardNum = generateCardNumber();
-        String pin = generatePin();
+        String cardNum = GenerateCardNumber();
+        String pin = GeneratePin();
         System.out.println("Balance: ");
         double balance = scanner.nextDouble();
         System.out.println("Perm: ");
