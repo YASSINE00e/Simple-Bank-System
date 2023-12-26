@@ -31,3 +31,6 @@ Key Features:
    - Validates user inputs to prevent unintended errors or misuse, enhancing the reliability of the system.
 
 This Simple Banking System project serves as a foundation for a basic banking application, providing essential functionalities for user account management and administrative oversight. The console-based interface ensures simplicity and accessibility, making it suitable for educational purposes or as a starting point for more advanced banking systems.
+
+**Class Diagram:**
+![Class Diagram](https://github.com/YASSINE00e/Simple-Bank-System/assets/63545772/6963f5e9-1ab1-4b75-b1d8-230125789c41)
