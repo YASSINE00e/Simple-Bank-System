@@ -118,7 +118,7 @@ public class User {
 
     Scanner scanner = new Scanner(System.in);
 
-    public void UpdateBalance(double newbalance) {
+    private void UpdateBalance(double newbalance) {
         String db = "db.txt";
         String newinfo = id + "#" + firstName + "#" + lastName + "#" + cardNum + "#" + pin + "#"
                 + newbalance + "#" + perm;
